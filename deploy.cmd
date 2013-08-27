@@ -53,7 +53,7 @@ IF NOT DEFINED KUDU_SYNC_CMD (
 
 echo Handling Basic Web Site deployment.
  
-error
+goto error
 
 :: 1. KuduSync
 IF /I "%IN_PLACE_DEPLOYMENT%" NEQ "1" (
